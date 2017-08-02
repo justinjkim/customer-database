@@ -1,7 +1,6 @@
 /* mobile responsive */
 body {
 	font-family: 'Raleway', sans-serif;
-	font-size: 1em;
 }
 
 ul#employee_wrapper {
@@ -69,19 +68,19 @@ li.employee_profile img {
 
 
 /* wider resolutions */
-@media (min-width: 600px) {
-	ul#employee_wrapper {
+@media screen and (min-width: 600px) {
+	#employee_wrapper {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		flex-direction: row;
 	}
 
-	li.employee_profile {
+	.employee_profile {
 		padding: 5px;
 		width: 25%;
-		height: 200px;
-		margin: 10px 1px;
+		height: 100px;
+		margin: 10px;
 		line-height: 10px;
 		font-size: 0.8em;
 		text-align: center;
