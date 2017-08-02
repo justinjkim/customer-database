@@ -42,6 +42,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "male",
     "name":
@@ -84,6 +86,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "female",
     "name":
@@ -126,6 +130,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "male",
     "name":
@@ -168,6 +174,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "male",
     "name":
@@ -210,6 +218,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "female",
     "name":
@@ -252,6 +262,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "male",
     "name":
@@ -294,6 +306,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "male",
     "name":
@@ -336,6 +350,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "female",
     "name":
@@ -378,6 +394,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "female",
     "name":
@@ -420,6 +438,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "female",
     "name":
@@ -462,6 +482,8 @@ const customers = {
     },
     "nat": "US"
   },
+
+
   {
     "gender": "female",
     "name":
@@ -504,6 +526,7 @@ const customers = {
     },
     "nat": "US"
   }],
+  
   "info":
   {
     "seed": "b98b46987e52ab98",
