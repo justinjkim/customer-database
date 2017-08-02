@@ -1,10 +1,10 @@
-let container = document.getElementById('container');
+let employee_wrapper = document.getElementById('employee_wrapper');
 
 
 customers.results.map((database) => {
-	let employee_profile = document.createElement('div');
+	let employee_profile = document.createElement('li');
 	employee_profile.setAttribute('class', 'employee_profile')
-	container.appendChild(employee_profile);
+	employee_wrapper.appendChild(employee_profile);
 
 	// template literal
 	content = `

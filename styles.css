@@ -1,9 +1,46 @@
-#container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+@media (max-width: 320px) {
+	body {
+	font-family: 'Raleway', sans-serif;
+	}
+
+	#employee_wrapper {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.container h1 {
+		text-align: center;
+	}
+
+	.container ul {
+		list-style: none;
+	}
+
+	.employee_profile {
+		padding: 5px;
+		width: 25%;
+		height: 200px;
+		margin: 10px;
+		line-height: 10px;
+		font-size: 0.8em;
+		text-align: center;
+		border: 2px dotted #ddd;
+	}
+
+	.fullname {
+		text-transform: uppercase;
+	}
 }
 
-.employee_profile {
-	flex-basis: 30%;
+@media (max-width: 1024px) {
+	#employee_wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		flex-direction: row;
+	}
 }
+
+
+
